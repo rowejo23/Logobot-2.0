@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application name="logobot 2.0" version="1.1">
+  <product language="2057">
+    <version name="1.0.0" installationUrl="http://www.logobot.co.uk/logobotexe/" productCode="{42AB8798-5C0F-40A5-B1BA-82071AA993A9}" languages="2057" updateType="webPage">
+      <files msi="Logobot_Setup" hash="817F8E7D783BB8C486EE68628DDB0BA0">
+        <file hash="E7B70475FC36DB6EAFA9D227E8E9A803">Logobot_Setup.msi</file>
+        <file hash="478DE42F18304206401399FAA07369C2" prerequisite="true">prerequisites\setup.exe</file>
+      </files>
+      <preferences>
+        <showInstallUI>true</showInstallUI>
+        <showUninstallUI>false</showUninstallUI>
+        <webPage>true</webPage>
+        <showDownloaderWindow>true</showDownloaderWindow>
+        <showRunningApplicationsWarning>true</showRunningApplicationsWarning>
+      </preferences>
+    </version>
+  </product>
+</application>

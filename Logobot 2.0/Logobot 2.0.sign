@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<signConfiguration version="1.0" enabled="true" sha1="true" sha256="true">
+  <signingOptions>
+    <issuedTo>Joshua</issuedTo>
+    <issuedBy>Joshua</issuedBy>
+    <intendedPurpose>DigitalSignature, Code Signing</intendedPurpose>
+    <expirationDate>25/07/2017 21:28:26</expirationDate>
+    <signatureAlgorithm>sha1RSA</signatureAlgorithm>
+    <certificateHash />
+    <certificatePath>C:\Users\Joshua\Documents\Logobot Company\SSL\logobotCodeSign.pfx</certificatePath>
+    <certificatePassword />
+    <timestamp />
+    <timestampSHA256 />
+  </signingOptions>
+</signConfiguration>

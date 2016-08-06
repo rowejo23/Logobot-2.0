@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishConfiguration version="1.0" lastOpenedMSI="C:\Users\Joshua\Documents\Visual Studio 2015\Projects\Logobot 2.0\Logobot 2.0\Logobot 2.0Setup\1.0.0\Debug\Logobot_Setup.msi">
+  <application version="1.0.0" language="2057" publishingLocation=".\MSIPublish\" installationUrl="http://www.logobot.co.uk/logobotexe/" customActionLocation="" customActionClassName="">
+    <signingOptions signXml="false">
+      <certificatePath>C:\Users\Joshua\Documents\Logobot Company\SSL\logobotCodeSign.pfx</certificatePath>
+      <sha1>true</sha1>
+      <sha256>true</sha256>
+    </signingOptions>
+    <iconPath>C:\Users\Joshua\Documents\Visual Studio 2015\Projects\logobot-head.ico</iconPath>
+    <preferences showInstallUI="true" showUninstallUI="false" webPage="true" showDownloaderWindow="true" showRunningApplicationsWarning="true" />
+    <prerequisites createSetupProgram="true" installFromVendor="true">
+      <product code=".NETFramework,Version=v4.0" displayName="Microsoft .NET Framework 4 (x86 and x64)" />
+    </prerequisites>
+    <ftp userName="" passive="0" anonimous="0" />
+  </application>
+</publishConfiguration>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishConfiguration version="1.2" activeTab="1" lastOpenedMSI="C:\Users\Joshua\Documents\Visual Studio 2015\Projects\Logobot 2.0\Logobot 2.0\Logobot 2.0Setup\1.0.0\Debug\Logobot_Setup.msi">
+  <application version="1.0.0.0">
+    <signingOptions>
+      <certificatePath>C:\Users\Joshua\Documents\Visual Studio 2015\Projects\Logobot 2.0\logobot.pfx</certificatePath>
+      <sha1>false</sha1>
+      <sha256>true</sha256>
+    </signingOptions>
+    <deploymentOptions>
+      <providerURL>https://myhellocloud1234.azurewebsites.net/logobotexe/logobot.application</providerURL>
+      <runAfterInstalling>false</runAfterInstalling>
+    </deploymentOptions>
+    <preferences>
+      <showErrors>true</showErrors>
+      <showGUI>true</showGUI>
+      <generateLogFile>false</generateLogFile>
+      <showRegMsg>true</showRegMsg>
+      <showRunningApplicationsWarning>true</showRunningApplicationsWarning>
+    </preferences>
+    <prerequisites createSetupProgram="true" installFromVendor="false" />
+  </application>
+</publishConfiguration>
